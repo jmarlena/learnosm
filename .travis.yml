@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+- 2.0.0
+before_script:
+- bundle exec compass compile
+- bundle exec jekyll build
+
+script:
+
+after_success:
+- "./_scripts/travis_deploy.sh"
+
+#white list 
+branches:
+only:
+- master
+- live
+- gh-pages # test the gh-pages branch
