@@ -4,6 +4,7 @@ rvm:
 before_script:
 - bundle exec compass compile
 - bundle exec jekyll build
+- bundle install all 
 
 script:
 
