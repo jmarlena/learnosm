@@ -1,12 +1,13 @@
+source: 'https://rubygems.org'
 language: ruby
 rvm:
 - 2.0.0
-before_script:
-- bundle exec compass compile
-- bundle exec jekyll build
-- bundle install all 
+
 
 script:
+	- bundle exec compass compile
+	- bundle exec jekyll build
+	- bundle install all 
 
 after_success:
 - "./_scripts/travis_deploy.sh"
@@ -14,6 +15,6 @@ after_success:
 #white list 
 branches:
 only:
-- master
-- live
-- gh-pages # test the gh-pages branch
+	- master
+	- live
+	- gh-pages # test the gh-pages branch
