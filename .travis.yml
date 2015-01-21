@@ -6,7 +6,6 @@ rvm:
 script:
 - bundle exec compass compile
 - bundle exec jekyll build
-- bundle install all 
 
 after_success:
 - "./_scripts/travis_deploy.sh"
