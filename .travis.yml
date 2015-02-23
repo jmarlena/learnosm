@@ -12,7 +12,6 @@ after_success:
 
 #white list 
 branches:
-only:
   - master
   - live
   - gh-pages # test the gh-pages branch
