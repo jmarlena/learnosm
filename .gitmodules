@@ -1,0 +1,3 @@
+[submodule "learnosm"]
+	path = learnosm
+	url = https://github.com/jmarlena/learnosm
