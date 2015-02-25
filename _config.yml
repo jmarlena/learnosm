@@ -1,6 +1,5 @@
-auto: true
-pygments: true
-server: true
+
+highlighter: pygments   
 markdown: rdiscount
 permalink: /:categories/:title/
 columnist:
