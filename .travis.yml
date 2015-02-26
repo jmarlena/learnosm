@@ -2,6 +2,7 @@ language: ruby
 rvm:
 - 2.0.0
 
+sudo: false 
 
 script:
 - bundle exec compass compile
@@ -12,6 +13,7 @@ after_success:
 
 #white list 
 branches:
+only:
   - master
   - live
   - gh-pages # test the gh-pages branch
