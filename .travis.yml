@@ -2,9 +2,10 @@ language: ruby
 rvm:
 - 2.0.0
 
-script:
-- bundle exec compass compile
-- bundle exec jekyll build
+
+install:
+- bundle install
+script: bundle exec rake
 
 after_success:
 - "./_scripts/travis_deploy.sh"
