@@ -11,8 +11,8 @@ after_success:
 - "./_scripts/travis_deploy.sh"
 
 #white list 
-branches:
-only:
-  - master
-  - live
-  - gh-pages # test the gh-pages branch
+#branches:
+#only:
+  #- master
+  #- live
+  #- gh-pages # test the gh-pages branch
