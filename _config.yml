@@ -1,3 +1,4 @@
+exclude: [vendor]
 highlighter: pygments
 markdown: rdiscount
 permalink: /:categories/:title/
