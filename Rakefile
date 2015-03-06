@@ -206,7 +206,7 @@ namespace :site do
     #if ENV["TRAVIS"]
       sh "git config --global user.name 'travis on behalf of jmarlena'"
       sh "git config --global user.email 'jmarlena.canepa@gmail.com'"
-      sh "git config --global push.default current"
+      sh "git config --global push.default simple"
     #end
 
     # Make sure destination folder exists as git repo

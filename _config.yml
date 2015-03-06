@@ -2,6 +2,17 @@ exclude: [vendor]
 highlighter: pygments
 markdown: rdiscount
 permalink: /:categories/:title/
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
+
 columnist:
   paths:
   - _posts

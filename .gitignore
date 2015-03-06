@@ -6,3 +6,9 @@ _build/
 _site/
 .DS_Store
 serve/
+
+#Added from Jekyll Github Travis CI file
+*.gem
+*.rbc
+.bundle
+.config
