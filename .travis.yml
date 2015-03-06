@@ -18,5 +18,5 @@ after_success:
   #- gh-pages # test the gh-pages branch
 
 global:
-	env:
-		secure: db5RLQwntpc0Hvbe2rp9sf83cQxJ9o6pqvyZMGX1U3TYbzC5evKorKpsdw8bYkSk8sGSUr5QlO5rHwFvNtREgwPiDPCZgTi7+RO4/EqelTv1qODg4tpmvp0ZzC9u8s+qPI0oZJGo9B01QsTQrnvxdrzzcwLyUXJHT4dsqNfEHg4=
+  env:
+    secure: db5RLQwntpc0Hvbe2rp9sf83cQxJ9o6pqvyZMGX1U3TYbzC5evKorKpsdw8bYkSk8sGSUr5QlO5rHwFvNtREgwPiDPCZgTi7+RO4/EqelTv1qODg4tpmvp0ZzC9u8s+qPI0oZJGo9B01QsTQrnvxdrzzcwLyUXJHT4dsqNfEHg4=
