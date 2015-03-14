@@ -9,8 +9,6 @@ category: beginner
 Introduction
 ============
 
-Welcome!
-
 Information is powerful. With good information and the right
 understanding, individuals and communities are better able to improve
 their lives and make good decisions about the future. There are many
