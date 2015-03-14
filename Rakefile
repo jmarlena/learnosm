@@ -180,7 +180,7 @@ namespace :site do
   desc "Generate the site"
   task :build do
     check_destination
-    sh "bundle exec jekyll build"
+    sh "bundle exec jekyll build --trace"
   end
 
   desc "Generate the site and serve locally"
