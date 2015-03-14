@@ -5,7 +5,7 @@ rvm:
 
 install:
 - bundle install
-script: bundle exec rake site:deploy
+script: bundle exec rake
 
 after_success:
 - "./_scripts/travis_deploy.sh"
