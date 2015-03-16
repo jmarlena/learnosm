@@ -13,6 +13,7 @@ CONFIG = YAML.load(File.read('_config.yml'))
 USERNAME = CONFIG["username"] || ENV['GIT_NAME']
 REPO = CONFIG["repo"] || "#{USERNAME}.github.io"
 
+#Sets default-task 
 require "rake/testtask"
 
 Rake::TestTask.new do |t|
