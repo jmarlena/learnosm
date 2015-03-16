@@ -4,18 +4,18 @@ rvm:
 
 install:
 - bundle install
+
 script: bundle exec rake
 
 after_success:
 - "./_scripts/travis_deploy.sh"
 
 #white list 
-#branches:
-#only:
-  #- master
-  #- live
-  #- gh-pages # test the gh-pages branch
-
+branches:
+  only:
+  - master
+  - live
+ #- gh-pages # test the gh-pages branch
 env:
   global:
     secure: db5RLQwntpc0Hvbe2rp9sf83cQxJ9o6pqvyZMGX1U3TYbzC5evKorKpsdw8bYkSk8sGSUr5QlO5rHwFvNtREgwPiDPCZgTi7+RO4/EqelTv1qODg4tpmvp0ZzC9u8s+qPI0oZJGo9B01QsTQrnvxdrzzcwLyUXJHT4dsqNfEHg4=
